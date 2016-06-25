@@ -19,4 +19,3 @@ The Python script for automating the tab install on the browser will be the bigg
 ##Schedule
 The Python script for automated install of the tab on startup and launch that will populate the page with fields. This hard task will take a week.
 Integrate PostgreSQL functionality into the app with the search function and search by keyword or date. This will take a week or more.
-
