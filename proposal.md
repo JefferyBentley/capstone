@@ -1,4 +1,4 @@
-#Jeff Bentley - The Capstone Project
+#Jeff Bentley - The Capstone Project Proposal
 June 25, 2016
 
 ##Product Name
@@ -17,5 +17,16 @@ The app will use a save state field that can be initialized at app launch to dis
 The Python script for automating the tab install on the browser will be the biggest technical challenge initially. This will need to also go out and grab the CSS styling and HTML code to display the opening page after opening the browser. The second main function is integration of the PostgreSQL text search with the Django SQL. I am still researching this, I may be able to just use PostgreSQL instead.
 
 ##Schedule
-The Python script for automated install of the tab on startup and launch that will populate the page with fields. This hard task will take a week.
-Integrate PostgreSQL functionality into the app with the search function and search by keyword or date. This will take a week or more.
+The Python script for automated installation of the browser tab on startup and launch that will populate the page with fields will be the first step. This hard task will take a week.
+
+Secondly I will integrate PostgreSQL functionality into the app with the search function and search by keyword or date. This will take a week or more.
+
+I will then work on the Javascript interactivity with the File and Save buttons and the clicks for opening recent notes and
+also the search bar. This will have to integrate with the database also. This will take at least a week.
+
+I will lastly work on the HTML and CSS styling for the panes and look and feel of the app. This will take another week.
+Then final testing and full functionality verification with Chrome, Safari, Firefox and IE if there is time. 
+Depending on how much time I have left I may add searching notes by subject or category. This will probably have to be decided earlier. So I may not implement this to keep the scope more focused. 
+
+##Further Work
+I will probably have a default font and perhaps 2 more common ones. Perhaps I can add more fonts and spell check features. Future work would be change the color scheme and backgrounds. The ability to print your notes and email them as attachments may also be added. 
