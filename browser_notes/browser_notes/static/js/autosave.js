@@ -7,9 +7,6 @@ $(function() {
 
 
 
-
-
-
 // Behaviors for markdown
 
 // create editor instance once the DOM has loaded
@@ -20,8 +17,6 @@ $(function () {
         editor.hideRendered();
     });
 });
-
-
 
 
 
