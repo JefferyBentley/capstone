@@ -1,4 +1,28 @@
 
+// on Focus function
+
+$(function() {
+    document.getElementById("current-note").focus();
+});
+
+
+
+
+
+
+// Behaviors for markdown
+
+// create editor instance once the DOM has loaded
+var editor;
+$(function () {
+    editor = $('#current-note').mdEditor();
+    window.requestAnimationFrame(function () {
+        editor.hideRendered();
+    });
+});
+
+
+
 
 
 // jQuery to update list after autosave and editing.
@@ -72,6 +96,7 @@ $("#notes-list").on('click', function(evt) {
       success: function (data) {
 
           $('#current-note').attr('data-id', note_id).val(data.note);
+          editor.hideRendered();
       }
   });
 
