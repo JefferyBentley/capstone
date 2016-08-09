@@ -97,9 +97,7 @@ def note(request):
     note = Note.objects.filter(id=request.GET.get("note_id")).values("note")
     print(request.GET.get("note_id"))
     print(note)
-    # if request.method == 'POST':
-    #     html = render_note(note)
-    #     print(html)
+
     return JsonResponse({'note': note[0]["note"]})
 
 
@@ -130,8 +128,6 @@ def render_note(note):
         tmpl = Template(f.read())
         ctxt = Context({'note': note})
         return tmpl.render(ctxt)
-
-
 
 
 def login_form(request):
