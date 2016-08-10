@@ -81,7 +81,6 @@ $(function(){
 
 $("#notes-list").on('click', function(evt) {
   var note_id = $(evt.target).attr('data-id');
-    // console.log(note_id)
   $.ajax({
       type: "GET",
       url: "/note",

@@ -60,7 +60,7 @@ def notes(request):
         if request.POST.get("note_id") == "newnote":
             # create a new note
 
-            print(request.POST.get("note"))
+            print(request.POST.get("note"))      # print statements for testing purposes
             print(request.POST.get("note_id"))
             n = Note(note=request.POST.get("note"), user=request.user)
 
@@ -71,7 +71,7 @@ def notes(request):
 
         else:
             # update existing note
-            print("test")
+
             note = Note.objects.get(id=request.POST.get("note_id"))
             note.note = request.POST.get("note")  # change field
             note.save()  # this will update only
@@ -95,7 +95,7 @@ def notes(request):
 
 def note(request):
     note = Note.objects.filter(id=request.GET.get("note_id")).values("note")
-    print(request.GET.get("note_id"))
+    print(request.GET.get("note_id"))    # print statements for testing purposes.
     print(note)
 
     return JsonResponse({'note': note[0]["note"]})
