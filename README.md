@@ -1,6 +1,7 @@
 # Capstone Prerequisites
 
 The following link was used to kickstart this Django project using the Django CookieCutter template:https://cookiecutter-django.readthedocs.io/en/latest/
+This will set up a Users model for you after you register. Along with Bootstrap CSS and Javascript which you may use if you wish. 
   
 # Python
 This project was made with Python 3.5 see this link for the lastest version if you need Python:
