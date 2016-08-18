@@ -1,4 +1,4 @@
-# Browser Notes - An notetaking single page app for taking notes without leaving the web browser.
+# Browser Notes - A notetaking single page app for taking notes without leaving the web browser.
 
 # Capstone Prerequisites
 
