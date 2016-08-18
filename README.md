@@ -1,3 +1,5 @@
+# Browser Notes - An notetaking single page app for taking notes without leaving the web browser.
+
 # Capstone Prerequisites
 
 The following link was used to kickstart this Django project using the Django CookieCutter template:https://cookiecutter-django.readthedocs.io/en/latest/
